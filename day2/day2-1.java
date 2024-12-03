@@ -39,7 +39,7 @@ public class AdventOfCode {
 			
 			// lets iterate over and figure out if this sequence is safe or not
 			// safe means it either continues to decrease or increase from left to right
-			// and also each difference between numbers is at least one and at most 3
+			// and also each difference between numbers is at least one and at most
 			for(int i=0;i<numbers.size();i++) {
 				// check to see if we are at end of array
 				if(i == numbers.size()-1) {
