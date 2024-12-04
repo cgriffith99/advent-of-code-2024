@@ -22,7 +22,7 @@ public class AdventOfCode {
 
 		// we need to make a regex to find any occurences of
 		// mul(x,y) in the fileContent
-		Pattern pattern = Pattern.compile("mul\\(" + "\\d+" + "," + "\\d+" + "\\)");
+		Pattern pattern = Pattern.compile("mul\\(\\d+,\\d+\\)");
 		Matcher matcher = pattern.matcher(fileContent);
 
 		System.out.println("Below are the matches: ");
